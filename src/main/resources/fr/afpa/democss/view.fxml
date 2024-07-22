@@ -67,10 +67,13 @@
         </VBox>
     </center>
     <bottom>
-        <HBox id="footer-section">
+        <HBox id="footer-section" alignment="CENTER">
             <children>
                 <Label text="2022 Afpa" />
             </children>
         </HBox>
     </bottom>
+    <stylesheets>
+        <URL value="@custom.css" />
+        </stylesheets>
 </BorderPane>
